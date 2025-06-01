@@ -1,15 +1,18 @@
 {
 	"typescript.tsdk": "node_modules/typescript/lib",
 	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.defaultFormatter": "biome.biome-vscode",
 	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.defaultFormatter": "biome.biome-vscode",
 		"editor.codeActionsOnSave": {
-			"source.organizeImports": "explicit"
+			"source.organizeImports.biome": "explicit"
 		}
 	},
 	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "biome.biome-vscode",
+		"editor.codeActionsOnSave": {
+			"source.organizeImports.biome": "explicit"
+		}
 	},
 	"files.exclude": {
 		"dist": true,
