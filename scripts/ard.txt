@@ -56,7 +56,7 @@ This document outlines the architectural requirements for migrating Task Master 
 ```
 
 ### 4.3 Development Infrastructure
-- **Linting**: ESLint with TypeScript parser
+- **Linting**: Biome
 - **Testing**: Jest with ts-jest for TypeScript tests
 - **Type Checking**: `tsc --noEmit` for validation
 - **IDE Support**: VS Code configuration included
@@ -292,7 +292,7 @@ type _TaskCompatibility = Equal<Task, LegacyTask>;
 - Node.js >= 14.0.0
 - TypeScript 5.x
 - tsup for building
-- ESLint for linting
+- Biome for linting
 - Jest for testing
 
 ### 15.2 Knowledge Prerequisites
